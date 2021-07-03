@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+
+
+.cart-estimate-link {
+    display: inline-table;
+    padding: 10px 0 0 150px;
+}
+
+.cart-zip input {
+    border: 1px solid #000;
+    margin-left: 15px;
+    overflow: hidden;
+    width: 88%;
+}
+
+.login-bottom-content {
+    line-height: 30px;
+    border-bottom: solid 2px #ccc;
+    margin: 0px 14px;
+    padding-bottom: 30px;
+}
+.login-bottom-content span {
+    font-size: 13px;
+    background-color: #3a5795;
+    color: #fff;
+    font-style: normal;
+    padding: 5px 5px;
+}
+.forgot-password-content2 {
+    text-align: right;
+    padding-right: 52px;
+}
+.forgot-password-box1 input {
+    width: 100%;
+    overflow: hidden;
+    padding: 7px 5px;
+    border: none;
+    border: solid 1px #b9864b;
+}
+.forgot-password-link a {
+    background-color: #b9864b;
+    display: inline-table;
+    color: #fff;
+    padding: 8px 8px;
+}
+.forgot-password-link {
+    margin: 30px 0px 0px 0px;
+}
+.forgot-password-link1 {
+    margin: 30px 1px 0px 0px;
+}
+.forgot-password-box1 label {
+    width: 100%;
+    text-align: left;
+	padding-left:0px;
+    font-size: 14px;
+}
+
+
+}

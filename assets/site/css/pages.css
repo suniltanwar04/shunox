@@ -1,0 +1,40 @@
+.main-container {
+    background-color: #ffffff;
+    margin: 75px 16px;
+}
+
+.main-container.default-page .entry-header {
+    margin: -52px 31px -26px;
+}
+
+.main-container.default-page .entry-header {
+    margin: 20px 0 0px;
+}
+
+.main-container .entry-header {
+    float: left;
+    margin: 30px 0 40px;
+    width: 100%;
+}
+.main-container .entry-header .entry-title {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 0 0px;
+    position: relative;
+    text-transform: none;
+	text-align:center
+}
+
+.main-container .entry-header .entry-title:after {
+    background: #FFB548;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    width: 60px;
+} 
+

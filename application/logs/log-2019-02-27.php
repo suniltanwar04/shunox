@@ -1,0 +1,55 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-02-27 00:14:10 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 00:35:11 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 01:39:10 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 01:57:58 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 01:57:58 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 02:41:03 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 03:10:06 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 03:17:17 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 03:18:22 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 03:20:33 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 03:48:29 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:37 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:37 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:37 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:38 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:39 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:39 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:39 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:39 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:39 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:40 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:40 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:40 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:40 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:31:40 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:38:05 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:38:13 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 04:39:34 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 08:17:56 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 08:52:09 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 08:52:10 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 08:52:20 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 10:44:25 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 11:48:52 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 11:52:26 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 11:53:04 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 12:51:12 --> Severity: Warning --> Invalid argument supplied for foreach() /home/shoemade4u/public_html/application/modules/site/views/user/edit-profile.php 110
+ERROR - 2019-02-27 12:51:12 --> Severity: Warning --> Invalid argument supplied for foreach() /home/shoemade4u/public_html/application/modules/site/views/user/edit-profile.php 139
+ERROR - 2019-02-27 13:11:23 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 14:42:20 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 17:44:17 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 17:44:17 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 18:21:20 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 18:25:14 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 19:33:51 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 20:55:11 --> 404 Page Not Found: /index
+ERROR - 2019-02-27 20:55:12 --> 404 Page Not Found: /index

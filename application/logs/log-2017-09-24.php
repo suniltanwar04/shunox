@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-09-24 01:01:18 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 01:01:19 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 01:58:54 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 01:58:55 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 01:58:56 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 01:58:56 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 04:18:13 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 04:18:13 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 04:18:13 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 04:18:13 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 04:18:14 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 06:55:19 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 07:49:42 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 07:49:49 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 08:47:20 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 09:01:17 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 09:01:22 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:00:12 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:35:36 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:35:37 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:35:37 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:35:37 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 10:35:37 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 13:17:13 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 16:28:35 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 16:55:36 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 19:04:16 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 20:57:35 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 21:33:36 --> 404 Page Not Found: /index
+ERROR - 2017-09-24 21:47:59 --> 404 Page Not Found: /index

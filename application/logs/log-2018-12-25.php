@@ -1,0 +1,45 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-12-25 00:43:51 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 01:39:46 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 03:37:28 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 03:55:49 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 05:34:36 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 05:34:40 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 05:36:06 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 06:18:06 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 07:11:56 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 08:59:58 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 09:37:55 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 09:40:06 --> Severity: Notice --> Trying to get property of non-object /home/shoemade4u/public_html/application/modules/site/models/SiteLogin_model.php 239
+ERROR - 2018-12-25 09:54:30 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 11:39:40 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 12:06:57 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 12:07:03 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 12:07:05 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 14:00:06 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 14:09:00 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 14:53:53 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 15:44:25 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 15:44:38 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 16:00:01 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 16:25:00 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 16:25:07 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 17:45:34 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 17:51:53 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 18:29:36 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 19:01:23 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 19:36:20 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 19:36:23 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 19:36:24 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 19:54:47 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 20:15:12 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 21:19:21 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 21:49:19 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 22:06:56 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 22:06:58 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 22:07:00 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 23:00:36 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 23:19:35 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 23:29:59 --> 404 Page Not Found: /index
+ERROR - 2018-12-25 23:58:33 --> 404 Page Not Found: /index

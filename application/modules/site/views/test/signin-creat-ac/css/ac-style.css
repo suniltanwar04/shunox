@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** Create an Acccount section *****/
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+.signin-wrap {
+	background: #E2EFED;
+	padding: 30px;
+	line-height: 1.6em;
+	color: #000;
+	position: relative;
+	border: 1px solid #935C24;
+    margin: 30px 50px;
+}
+.signin-wrap h1 {
+	font-size:24px;
+	text-align: center;
+	font-weight: 400;
+}
+.left-sec > h2, .right-sec > h2 {
+	font-size: 17px;
+	margin-bottom:0px;
+}
+.left-sec p, .right-sec p {
+	font-size:12px;
+	font-style:italic;
+}
+.left-sec ul {
+	padding-left:15px;
+}
+.create_ac_btn {
+	margin: 30px 0;
+}
+.create_ac_btn a {
+	text-decoration:none;
+}
+.create_ac_btn a.ac_btn span, .login_btn {
+	padding: 8px 15px;
+	background: #b9864b;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+.create_ac_btn a.ac_btn span:hover, .login_btn:hover, .back-btn:hover {
+	background: #000;
+}
+input.login_btn {
+	border: none;
+	outline: none;
+	padding: 7px 45px;
+}
+.left-sec p a {
+	font-size: 14px;
+	font-style: normal;
+	color: #000;
+	text-decoration: underline;
+}
+#signin-form label {
+	max-width:30%;
+	float:left;
+	margin-right: 15px;
+}
+#signin-form label span, #create-ac-form label span {
+	color: #df280a;
+	font-size: 18px;
+}
+#signin-form label.mr-45 {
+	margin-right:45px;
+}
+#signin-form input.form-control {
+	width:100%;
+	max-width:70%;
+	border-radius: 0px;
+	border: 1px solid #333;
+}
+#signin-form input.form-control:focus, #create-ac-form .form-control:focus {
+	border-color: #b9864b;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.required_feild, .forgot_pass {
+	margin: 0px;
+	text-align: right;
+	padding-right: 35px;
+	font-style: normal !important;
+	line-height: 18px;
+}
+.required_feild a {
+	color: #df280a;
+	text-decoration: none !important;
+}
+.forgot_pass a {
+	color:#000;
+	text-decoration:underline;
+}
+.social_login {
+	text-align:center;
+	padding-bottom: 20px;
+}
+.social_login h1 {
+	font-size: 16px;
+	color: #000;
+	letter-spacing: 0;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+button.facebook_login {
+	background: #3a5795;
+	border: none;
+	color: #fff;
+	margin: 10px auto;
+	padding: 7px 25px;
+}
+
+/***** Create New Account *****/
+.signin-wrap .right-sec h2 {
+    margin-bottom: 20px;
+}
+#create-ac-form .form-control {
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #333;
+}
+.news_check {
+	float: left;
+    padding: 0px 15px;
+    clear: both;
+    margin: 0px 0px 10px;
+    background: #609289;
+    font-size: 13px;
+    color: #fff;
+}
+.news_check input[type="checkbox"] {
+    vertical-align: top;
+    margin-right: 5px;
+}
+.back_btn_wrap{
+	margin-top:7px;
+	float:left;
+}
+a.back-btn {
+    padding: 10px;
+    background: #b9864b;
+    color: #fff;
+    text-decoration: none;
+}
+.submit_btn {
+    text-align: right;
+	float:right;
+}
+.submit_btn span {
+    color: #df280a;
+    font-size: 12px;
+}
+.mb_15{
+	margin-bottom:15px;
+}
+/***** Responsive Section *****/
+@media(max-width: 991px){
+#signin-form label {
+    max-width: 100%;
+}
+.signin-wrap {
+	background: #E2EFED;
+	padding: 30px;
+	line-height: 1.6em;
+	color: #000;
+	position: relative;
+	border: 1px solid #935C24;
+    margin: 30px;
+}
+}
+@media(max-width: 767px){
+.signin-wrap {
+    padding: 30px 70px;
+	margin: 30px 0;
+}
+form#signin-form {
+    max-width: 435px;
+}
+#signin-form input.form-control {
+    max-width: 100%;
+}
+.required_feild, .forgot_pass{
+	padding-right:0px;
+}
+.clear-both {
+    clear: both;
+}
+.submit_btn span {
+    display: none;
+}
+}
+@media(max-width: 480px){
+.signin-wrap {
+    padding: 30px 30px;
+}
+input.login_btn {
+    margin: 15px auto;
+}
+.back_btn_wrap, .submit_btn {
+    float: none;
+    text-align: center;
+}
+a.back-btn {
+    display: block;
+	padding: 7px 10px;
+}
+.submit_btn input.login_btn {
+    margin: 5px auto;
+    width: 100%;
+}
+}

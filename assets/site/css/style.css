@@ -1,0 +1,142 @@
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+	border: none;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 3px 0 0;
+    padding: 0 4px 5px;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption {
+	font-style: italic;
+	font-size: 12px;
+	line-height: 2;
+	color: #757575;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/***** food health *****/
+.foot-health-right{
+	background-color: #368e82 !important;
+    box-sizing: border-box;
+    width: 100%;
+	padding:35px 15px 20px;
+}
+.border_bottom{
+	border-bottom: 1px solid #EBEBEB;
+}
+span.tm_expo {
+    font-size: 10px;
+    position: absolute;
+    top: 3px;
+}
+span.tm_expro1 {
+    padding-left: 15px;
+}
+@media (max-width: 991px){
+	
+}
+@media (max-width: 767px){
+	.navbar-toggle {
+		border: 1px solid;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #4fb9a9 !important;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #4fb9a9 !important;
+	}
+	#hedt .grid-25, #hedt .grid-75 {
+		width: 100%;
+		padding: 0 5px;
+	}
+	.mobnone{display:none;}
+	.mmt-20{margin-top:20px!important;}
+	.mmt-0{margin-top:0!important;}
+	.mml-0{margin-left:0!important;}
+}
+.post-4389 li{
+	margin: 0  20px !important;
+}

@@ -1,0 +1,36 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-09-09 00:20:11 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 01:04:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 01:06:43 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 01:46:40 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 01:46:40 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 04:25:10 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 05:54:35 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 08:44:25 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 08:44:41 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 10:45:50 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 10:45:50 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 11:07:23 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 13:07:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 13:07:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 13:07:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 13:07:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 14:54:14 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:41 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:46 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:47 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:48 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:52 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:52 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:53 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:53 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:54 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:58 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:58 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 15:24:58 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 18:18:41 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 20:01:19 --> 404 Page Not Found: /index
+ERROR - 2018-09-09 20:01:19 --> 404 Page Not Found: /index

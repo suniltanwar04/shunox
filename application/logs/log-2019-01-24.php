@@ -1,0 +1,40 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-24 00:03:28 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 00:03:29 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 00:41:29 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 02:46:20 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 02:47:06 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 03:35:04 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 03:38:11 --> 404 Page Not Found: ../modules/site/controllers/Site/wp-admin
+ERROR - 2019-01-24 04:25:39 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 05:28:43 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 05:28:44 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 05:50:49 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 06:11:14 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 06:11:22 --> 404 Page Not Found: ../modules/site/controllers/SiteLogin/verifyOTP
+ERROR - 2019-01-24 06:12:39 --> Severity: Notice --> Undefined variable: user /home/shoemade4u/public_html/application/modules/common/libraries/CommonHelpers.php 422
+ERROR - 2019-01-24 07:54:50 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 08:36:58 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 08:37:00 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 08:44:27 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 09:53:27 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 12:19:26 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 12:44:41 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 12:57:22 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 13:08:16 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 14:28:24 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 14:32:18 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 14:49:18 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 15:41:46 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 16:29:15 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 17:17:05 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 17:43:25 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 17:45:58 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 19:07:53 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 19:45:27 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 20:18:59 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 21:59:50 --> 404 Page Not Found: ../modules/site/controllers/Site/wp-admin
+ERROR - 2019-01-24 23:17:35 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 23:17:35 --> 404 Page Not Found: /index
+ERROR - 2019-01-24 23:55:33 --> 404 Page Not Found: /index
