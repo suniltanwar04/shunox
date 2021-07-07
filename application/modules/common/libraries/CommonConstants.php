@@ -49,5 +49,9 @@ class CommonConstants
 
     const SLEEP_TIME = 3;
 
+    //Seller Info
+    const SELLER_EMAIL = 'seller@gmail.com';
+    const SELLER_TEAM = 'Team Seller';
+    const SELLER_URL_SLUG = 'seller';
 
 }

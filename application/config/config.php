@@ -28,6 +28,7 @@ include APPPATH . "modules/common/libraries/CommonConstants.php";
 
 $config['base_url'] = 'http://localhost/';
 $config['admin_base_url'] = 'http://localhost/' . CommonConstants::ADMIN_URL_SLUG . '/';
+$config['seller_base_url'] = 'http://localhost/' . CommonConstants::SELLER_URL_SLUG . '/';
 
 /*
 |--------------------------------------------------------------------------

@@ -181,6 +181,129 @@ $route['edit-product/(:any)'] = 'admin/AdminProduct/editProduct/$1';
 
 /*----------BackEnd Routes End----------*/
 
+
+/*----------Seller Routes Start----------*/
+$route[CommonConstants::SELLER_URL_SLUG] = 'seller';
+$route[CommonConstants::SELLER_URL_SLUG . '/login'] = 'seller/AdminLogin/login';
+
+$route[CommonConstants::SELLER_URL_SLUG .'/logins/(:any)'] = 'seller/seller/login/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/dashboard'] = 'seller/AdminDashboard';
+$route[CommonConstants::SELLER_URL_SLUG . '/logout'] = 'seller/AdminLogin/logOut';
+$route[CommonConstants::SELLER_URL_SLUG . '/categories'] = 'seller/AdminCategory/categories';
+$route[CommonConstants::SELLER_URL_SLUG . '/sub-categories'] = 'seller/AdminCategory/subCategories';
+$route[CommonConstants::SELLER_URL_SLUG . '/product'] = 'seller/AdminProduct/products';
+$route[CommonConstants::SELLER_URL_SLUG . '/banner'] = 'seller/AdminBanner';
+$route[CommonConstants::SELLER_URL_SLUG . '/product-attributes/(:any)'] = 'seller/AdminProduct/productAttributeList/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/manage-images/(:any)'] = 'seller/AdminProduct/productImagesList/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/delete-image/(:any)/(:any)'] = 'seller/AdminProduct/productImagesDelete/$1/$2';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveProductAttr'] = 'seller/AdminProduct/saveProductAttribute';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveImageAttr'] = 'seller/AdminProduct/saveImageAttribute';
+$route[CommonConstants::SELLER_URL_SLUG . '/user-management'] = 'seller/AdminUserManagement/userManagement';
+$route[CommonConstants::SELLER_URL_SLUG . '/user-details/(:any)'] = 'seller/AdminUserManagement/getUserDetailById/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/user-edit/(:any)'] = 'seller/AdminUserManagement/getUserEditById/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/user-update/(:any)'] = 'seller/AdminUserManagement/userUpdate/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/list-user-wise-order-product/(:any)'] = 'seller/AdminUserManagement/getListUserWiseOrderProductById/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/order-management'] = 'seller/AdminOrderManagement/orderManagement';
+$route[CommonConstants::SELLER_URL_SLUG . '/delete-order-management'] = 'seller/AdminOrderManagement/deleteOrderManagement';
+$route[CommonConstants::SELLER_URL_SLUG . '/coupon-listing'] = 'seller/AdminOrderManagement/orderCouponListing';
+$route[CommonConstants::SELLER_URL_SLUG . '/order-wise-product-details/(:any)'] = 'seller/AdminOrderManagement/orderWiseProductDetails/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/attributes'] = 'seller/AdminAttribute/attributes';
+$route[CommonConstants::SELLER_URL_SLUG . '/attribute-values'] = 'seller/AdminAttribute/attributeValues';
+$route[CommonConstants::SELLER_URL_SLUG . '/admin-Attribute-Mapping'] = 'seller/AdminAttributeMapping/AttributeMapping/';
+$route[CommonConstants::SELLER_URL_SLUG . '/admin-save-category'] = 'seller/AdminCategory/saveCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/editCategories'] = 'seller/AdminCategory/editCategories';
+$route[CommonConstants::SELLER_URL_SLUG . '/updatecategory'] = 'seller/AdminCategory/updatecategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableCategory'] = 'seller/AdminCategory/enableDisableCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/getSubCategoryByCategory'] = 'seller/AdminCategory/getSubCategoryByCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveSubCategory'] = 'seller/AdminCategory/saveSubCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/editSubCategory'] = 'seller/AdminCategory/editSubCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateSubCategory'] = 'seller/AdminCategory/updateSubCategory';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableSubCat'] = 'seller/AdminCategory/enableDisableSubCat';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveProduct'] = 'seller/AdminProduct/saveProduct';
+$route[CommonConstants::SELLER_URL_SLUG . '/editProduct'] = 'seller/AdminProduct/editProduct';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateProduct'] = 'seller/AdminProduct/updateProduct';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableProduct'] = 'seller/AdminProduct/enableDisableProduct';
+$route[CommonConstants::SELLER_URL_SLUG . '/deleteProduct'] = 'seller/AdminProduct/deleteProduct';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveAttribute'] = 'seller/AdminAttribute/saveAttribute/';
+$route[CommonConstants::SELLER_URL_SLUG . '/editAttribute'] = 'seller/AdminAttribute/editAttribute/';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateAttribute'] = 'seller/AdminAttribute/updateAttribute/';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableAttribute'] = 'seller/AdminAttribute/enableDisableAttribute/';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveAttributeValue'] = 'seller/AdminAttribute/saveAttributeValue/';
+$route[CommonConstants::SELLER_URL_SLUG . '/editAttributeValue'] = 'seller/AdminAttribute/editAttributeValue/';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateAttributeValue'] = 'seller/AdminAttribute/updateAttributeValue/';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableAttributeValue'] = 'seller/AdminAttribute/enableDisableAttributeValue/';
+$route[CommonConstants::SELLER_URL_SLUG . '/enable-disable-users'] = 'seller/AdminUserManagement/enableDisableUsers/';
+$route[CommonConstants::SELLER_URL_SLUG . '/delete-user'] = 'seller/AdminUserManagement/deleteUser/';
+$route[CommonConstants::SELLER_URL_SLUG . '/editPassword'] = 'seller/AdminUserManagement/editPassword/';
+$route[CommonConstants::SELLER_URL_SLUG . '/userPasswordUpdate'] = 'seller/AdminUserManagement/userPasswordUpdate/';
+$route[CommonConstants::SELLER_URL_SLUG . '/current-status'] = 'seller/AdminOrderManagement/currentStatus/';
+//for review
+$route[CommonConstants::SELLER_URL_SLUG . '/review-list'] = 'seller/AdminReview/review';
+$route[CommonConstants::SELLER_URL_SLUG . '/enable-disable-review'] = 'seller/AdminReview/enableDisableReview';
+$route[CommonConstants::SELLER_URL_SLUG . '/delete-review'] = 'seller/AdminReview/deleteReview';
+//for Coupon
+$route[CommonConstants::SELLER_URL_SLUG . '/coupon'] = 'seller/AdminCoupon/couponlist';
+$route[CommonConstants::SELLER_URL_SLUG . '/cart-list'] = 'seller/AdminCartList/index';
+$route[CommonConstants::SELLER_URL_SLUG . '/notify-list'] = 'seller/AdminNotifyList/index';
+$route[CommonConstants::SELLER_URL_SLUG . '/color-picker-input'] = 'seller/AdminAttribute/getColorPicker';
+$route[CommonConstants::SELLER_URL_SLUG . '/settings'] = 'seller/AdminSetting/index';
+$route[CommonConstants::SELLER_URL_SLUG . '/savesettings'] = 'seller/AdminSetting/saveSetting';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveBanner'] = 'seller/AdminBanner/saveBanner';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableBanner'] = 'seller/AdminBanner/enableDisableBanner';
+$route[CommonConstants::SELLER_URL_SLUG . '/deleteBanner'] = 'seller/AdminBanner/deleteBanner';
+$route[CommonConstants::SELLER_URL_SLUG . '/edit-banner/(:any)'] = 'seller/AdminBanner/editBanner/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/updatebanner/(:any)'] = 'seller/AdminBanner/updateBanner/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/social'] = 'seller/AdminSocial';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveSocial'] = 'seller/AdminSocial/saveSocial';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableSocial'] = 'seller/AdminSocial/enableDisableSocial';
+$route[CommonConstants::SELLER_URL_SLUG . '/deleteSocial'] = 'seller/AdminSocial/deleteSocial';
+$route[CommonConstants::SELLER_URL_SLUG . '/edit-social/(:any)'] = 'seller/AdminSocial/editSocial/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/updatesocial/(:any)'] = 'seller/AdminSocial/updateSocial/$1';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/pagelist'] = 'seller/AdminPage/index';
+$route[CommonConstants::SELLER_URL_SLUG . '/addPage'] = 'seller/AdminPage/addPage';
+$route[CommonConstants::SELLER_URL_SLUG . '/savePage'] = 'seller/AdminPage/savePageData';
+$route[CommonConstants::SELLER_URL_SLUG . '/editPage/(:any)'] = 'seller/AdminPage/editPageData/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/updatePage/(:any)'] = 'seller/AdminPage/updatePageData/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/location'] = 'seller/AdminScanningLocation/index';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveLocation'] = 'seller/AdminScanningLocation/saveLocation';
+$route[CommonConstants::SELLER_URL_SLUG . '/enableDisableLocation'] = 'seller/AdminScanningLocation/enableDisableLocation';
+$route[CommonConstants::SELLER_URL_SLUG . '/deleteLocation'] = 'seller/AdminScanningLocation/deleteLocation';
+$route[CommonConstants::SELLER_URL_SLUG . '/editLocation/(:any)'] = 'seller/AdminScanningLocation/editLocationData/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateLocation/(:any)'] = 'seller/AdminScanningLocation/updateLocationData/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/edit-become-detail-with-dealer-id/(:any)'] = 'seller/Admin/editbecomeDetailsWithDealerId/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/updatedealerdetails/(:any)'] = 'seller/Admin/updateDealerDetails/$1';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/blogs'] = 'seller/AdminBlog/index';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/blog/add'] = 'seller/AdminBlog/addBlogForm';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/blog/add-blog-form'] = 'seller/AdminBlog/addBlog';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/blog/delete/(:any)'] = 'seller/AdminBlog/delete/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/blog/edit/(:any)'] = 'seller/AdminBlog/editForm/$1';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/blog/update-blog/(:any)'] = 'seller/AdminBlog/updateBlog/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/newsletter'] = 'seller/Admin/newsLetter';
+$route[CommonConstants::SELLER_URL_SLUG . '/send-newsletter'] = 'seller/Admin/sendNewsletter';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/become-dealer'] = 'seller/Admin/becomeDealer';
+$route[CommonConstants::SELLER_URL_SLUG . '/become-dealer-with-id'] = 'seller/Admin/becomeWithDealerId';
+$route[CommonConstants::SELLER_URL_SLUG . '/view-become-detail/(:any)'] = 'seller/Admin/becomeDetails/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/view-become-detail-with-dealer-id/(:any)'] = 'seller/Admin/becomeDetailsWithDealerId/$1';
+$route[CommonConstants::SELLER_URL_SLUG . '/delete-dealer'] = 'seller/Admin/deleteDealer';
+$route[CommonConstants::SELLER_URL_SLUG . '/editDealer'] = 'seller/Admin/editDealer';
+$route[CommonConstants::SELLER_URL_SLUG . '/updateDealer'] = 'seller/Admin/updateDealer';
+$route[CommonConstants::SELLER_URL_SLUG . '/saveEmailAddress'] = 'seller/Admin/saveEmailAddress';
+$route[CommonConstants::SELLER_URL_SLUG . '/view-users/(:any)'] = 'seller/Admin/dealerUsers/$1';
+
+$route[CommonConstants::SELLER_URL_SLUG . '/send-forgot-pass-mail'] = 'seller/AdminLogin/sendResetPassMail';
+$route[CommonConstants::SELLER_URL_SLUG . '/getstatusbyorder'] = 'seller/AdminOrderManagement/getStatusByOrder';
+$route[CommonConstants::SELLER_URL_SLUG . '/send-forgot-pass-mail'] = 'seller/AdminLogin/sendResetPassMail';
+$route[CommonConstants::SELLER_URL_SLUG . '/resetpassword'] = 'seller/AdminLogin/resetPassword';
+
+/*----------Seller Routes End----------*/
+
 $route['change-status-pdf/(:any)/(:num)'] = 'site/Checkout/changestatusPdf/$1/$2';
 /*----------FrontEnd Routes Start----------*/
 

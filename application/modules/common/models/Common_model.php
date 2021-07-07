@@ -26,6 +26,15 @@ class Common_model extends CI_Model
         }
     }
 
+    public function sellerLoginCheck()
+    {
+        if ($this->session->userdata('adminId') > 0 && ($this->session->userdata('UserRole') == 3)) {
+            return true;
+        } else {
+            redirect($this->config->item('base_url') . 'seller', 301);
+        }
+    }
+
     public function siteLoginCheck()
     {
         if ($this->session->userdata('IsLoggedIn') == 1 && ($this->session->userdata('UserRole') != 1)) {
